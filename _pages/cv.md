@@ -1,6 +1,6 @@
 ---
 layout: default
-title: <Your Name> - Curriculum Vitae
+title: Daniel Han - Curriculum Vitae
 permalink: /cv/
 ---
 ## Curriculum Vitae
@@ -8,7 +8,7 @@ permalink: /cv/
 [Download my CV]({{ "/assets/CV.pdf" | relative_url }}) in PDF format.
 
 
-**Email:** [netID@cornell.edu](mailto:netID@cornell.edu) | | | **Phone:** +123 456 7890
+**Email:** [ddh83@cornell.edu](mailto:ddh83@cornell.edu) | | | **Phone:** +1 (540) 759 4395
 
 ---
 
@@ -20,17 +20,17 @@ Aspiring engineering student with a strong foundation in.... Passionate about ..
 #### Education
 - **Cornell University**  
   *Bachelor of Science in Mechanical and Aerospace Engineering*  
-  GPA: 3.8/4.0 | Graduation: Month, Year
+  GPA: 3.1/4.0 | Expected Graduation: May, 2028
 
-- **[High School Name]**  
+- **Cave Spring High School**  
   *High School Diploma*  
-  Graduation: [Month, Year]
+  Graduation: [May, 2024]
 
 ---
 
 #### Skills
-- **Software:** Autodesk Fusion 360, SolidWorks, ANSYS  
-- **Programming:** Python, MATLAB  
+- **Software:** OnShape, Arduino  
+- **Programming:** Python
 - **Tools:** 3D Printing, Laser Cutting  
 
 ---
@@ -57,13 +57,14 @@ Aspiring engineering student with a strong foundation in.... Passionate about ..
 ---
 
 #### Achievements & Certifications
+- National Merit Scholarship Winner, 2024
 - [Certification Name], [Issuing Organization], [Year]  
 - [Achievement Name], [Competition/Event], [Year]  
 
 ---
 
 #### Extracurricular Activities
-- Member of [Club/Organization Name]  
+- Member of Cornell Big Red Marching Band  
 - Volunteer for [Event/Organization Name]  
 
 ---
