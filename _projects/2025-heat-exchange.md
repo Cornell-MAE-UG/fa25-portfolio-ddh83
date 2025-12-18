@@ -74,6 +74,8 @@ For analysis, the temperature data can help determine the heat transfer inside t
 
 ![Shaded rendering of earlier version]({{ "/assets/images/equation.png" | relative_url }}){: .inline-image-c style="width: 576px"}
 
+*I am using u in this equation to represent gravitational potential energy. Note that u is usually used in thermodynamics to represent specific internal energy*
+
 This equation can be further simplified to a more useful form:
 
 - The total energy change rate, factoring in all variables, is set to 0, because within the system and accounting for boundary interactions, the conservation of energy applies. 
@@ -163,11 +165,12 @@ It appears q_counter is the greatest. Both values are negative, which signals Q 
 
 For an ideal heat exchanger, having minimized q should make the process better at exchanging, but in these two examples, the one with more q cooled slightly better. This suggests that either the experiment had many deviations, causing these results, or that the counterflow system really performs like this. 
 
-The q found here would likely be minimized if many of the components in the experiment were better insulated. Notably, the hot side of the exchanger cooled by 6 deg C, and the cold side warmed by 4 deg C. This temperature was measured outside of the exchanger internals, so these temperatures will have some interaction with the environment. Reducing the external heat transfer should also make the heat exchanger better. 
+The q found here would likely be minimized if many of the components in the experiment were better insulated. Notably, the hot side of the exchanger cooled by 6 &#x99 C, and the cold side warmed by 4 deg C. This temperature was measured outside of the exchanger internals, so these temperatures will have some interaction with the environment. Reducing the external heat transfer should also make the heat exchanger better. 
 
 **Change in enthalpy analysis**
 
 From these two trials, it appears that the counterflow system was better at removing heat from the hot water, but not better at adding heat to the cold water. This is possibly also due to experimental variation, as the experiment was not run many times for more data points. 
+
 _______________________________________________________________________________________________________________
 
 **Conclusion**
