@@ -103,7 +103,7 @@ For an ideal, adiabatic scenario, Q is also 0. This means the change in enthalpy
 
 For this real setup, there will likely be some sort of heat exchange with the environment. This exchange occurs at different points of the system. For instance, the temperature across the exchanger will be different, based on which specific part of the exchanger is measured. 
 
-For my analysis, I am going to find the external Q of the real exchanger in two setups. I am also going to calculate the heat rejected from the hot streama and the heat intruduced to the cold stream. 
+For my analysis, I am going to find the external q (specific heat transfer) of the real exchanger in two setups. I am also going to calculate the heat rejected from the hot streama and the heat intruduced to the cold stream. 
 
 _______________________________________________________________________________________________________________
 
@@ -129,7 +129,7 @@ The necessary quantity for my calculations was enthalpy, a type of internal ener
 
 _______________________________________________________________________________________________________________
 
-**Finding Q:**
+**Finding q:**
 
 Because my group did not try to measure the flow rate from the pumps, it will be easier to compare the quantities with a formula in a slightly different form:
 
@@ -137,9 +137,9 @@ Because my group did not try to measure the flow rate from the pumps, it will be
 
 From this formula, I computed the q values to be the following:
 
-q_parallel = -20.71 
+$q_{parallel}$ = -20.71 
 
-q_counter = -41.65
+$q_{counter}$ = -41.65
 
 *q is in kJ/kg*
 
@@ -148,8 +148,8 @@ q_counter = -41.65
 The change in enthalpy of the two liquids is also useful information. Using the respective h values, I took the final minus the initial to find these values:
 
 **parallel**
-change in hhot = -83.61
-change in hcold = 62.90
+Δ $h_{h}$ = -83.61
+Δ $h_{c}$ = 62.90
 
 **counter**
 change in hhot = -104.55
@@ -161,11 +161,11 @@ ________________________________________________________________________________
 
 **External heat exchange analysis**
 
-It appears q_counter is the greatest. Both values are negative, which signals Q out, according to sign conventions. However, the results are not the most reliable. There were precision limitations with the chart I was using, which signals great error. Furthermore, only one value in the counterflow was significantly different, that being Tho. This value was lower than expected, which may have affected the results.
+It appears $q_{counter}$ is the greater of the two q values. Both values are negative, which signals q out, according to sign conventions. However, the results are not the most reliable. There were precision limitations with the chart I was using, which signals great error. Furthermore, only one value in the counterflow was significantly different, that being Tho. This value was lower than expected, which may have affected the results.
 
 For an ideal heat exchanger, having minimized q should make the process better at exchanging, but in these two examples, the one with more q cooled slightly better. This suggests that either the experiment had many deviations, causing these results, or that the counterflow system really performs like this. 
 
-The q found here would likely be minimized if many of the components in the experiment were better insulated. Notably, the hot side of the exchanger cooled by 6 &#x99 C, and the cold side warmed by 4 deg C. This temperature was measured outside of the exchanger internals, so these temperatures will have some interaction with the environment. Reducing the external heat transfer should also make the heat exchanger better. 
+The q found here would likely be minimized if many of the components in the experiment were better insulated. Notably, the hot side of the exchanger cooled by 6 °C, and the cold side warmed by 4 °C. This temperature was measured outside of the exchanger internals, so these temperatures will have some interaction with the environment. Reducing the external heat transfer should also make the heat exchanger better. 
 
 **Change in enthalpy analysis**
 
