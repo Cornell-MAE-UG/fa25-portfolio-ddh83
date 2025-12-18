@@ -57,16 +57,16 @@ While it is known this setup is not adiabatic nor steady state, it can be useful
 **Temperature measurements:**
 
 Trial 1: Parallel
-- Thi = 38.9 deg C
-- Thf = 22.7 deg C
-- Tci = 4.8 deg C
-- Tcf = 19.2 deg C
+- T<sub>hi</sub> = 38.9 deg C
+- T<sub>hf</sub> = 22.7 deg C
+- T<sub>ci</sub> = 4.8 deg C
+- T<sub>cf</sub> = 19.2 deg C
 
 Trial 2: Counter
-- Thi = 39.2 deg C
-- Thf = 16.8 deg C
-- Tci = 6.2 deg C
-- Tcf = 22.0 deg C
+- T<sub>hi</sub> = 39.2 deg C
+- T<sub>hf</sub> = 16.8 deg C
+- T<sub>ci</sub> = 6.2 deg C
+- T<sub>cf</sub> = 22.0 deg C
 
 _______________________________________________________________________________________________________________
 
@@ -84,9 +84,9 @@ This equation can be further simplified to a more useful form:
 
 - The heat rate Q dot in the system is 0 if the process is adiabatic. This is because the internal Q is related to another part of the equation. The external Q is the heat exchange with the environment.
 
-- mi dot and mo dot are equal for both temperatures (mhi, mho, mci, mco), because the process is mostly steady state. As discussed before, there is a short period where that is false, but that time is relatively small.
+- m<sub>i</sub> dot and m<sub>o</sub> dot are equal for both temperatures, because the process is mostly steady state. As discussed before, there is a short period where that is false, but that time is relatively small.
 
-- mh and mc are also equal, because the pumps used are the same.
+- m<sub>h</sub> and m<sub>c</sub> are equal, because the pumps used are the same.
 
 - Kinetic and gravitational potential k and u are 0, because they are negligible. The water has mass, but it does not significantly change in elevation, and the velocity of the water from the pumps is not large. 
 
@@ -99,7 +99,7 @@ The final equation is as follows:
 
 _______________________________________________________________________________________________________________
 
-For an ideal, adiabatic scenario, Q is also 0. This means the change in enthalpy of one liquid is equal to the inverse of the change in enthalpy of the other. More specifically, The internal energy flows (in the form of heat) from the hotter reservoir to the colder one, in compliance with the second law of thermodynamics. 
+For an ideal, adiabatic scenario, q is also 0. This means the change in enthalpy of one liquid is equal to the inverse of the change in enthalpy of the other. More specifically, The internal energy flows (in the form of heat) from the hotter reservoir to the colder one, in compliance with the second law of thermodynamics. 
 
 For this real setup, there will likely be some sort of heat exchange with the environment. This exchange occurs at different points of the system. For instance, the temperature across the exchanger will be different, based on which specific part of the exchanger is measured. 
 
