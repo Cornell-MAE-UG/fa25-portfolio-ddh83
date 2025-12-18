@@ -105,9 +105,9 @@ For my analysis, I am going to find the external Q of the real exchanger in two 
 
 _______________________________________________________________________________________________________________
 
-**Calculations**
+**Finding necessary h values**
 
-Using my table data, I can find the approximate enthalpies of all four states found in this setup. I am using the atmospheric pressure value, that being 101.325 kPa. The values of h are found with emperically derived tables, which are generally consistent. The liquids here are assumed to have no significant vapor, because they are well below the boiling point at 1 atm.
+The necessary quantity for my calculations was enthalpy, a type of internal energy that also factors the ability of gas to do work. Using my table data, I found the approximate enthalpies of all four states found in this setup. This table compared known values (temperature) to ones more difficult to measure (enthalpy). I classified my two water types as being saturated liquids at 1 atm of pressure. 
 
 **parallel**
 
@@ -127,9 +127,7 @@ Using my table data, I can find the approximate enthalpies of all four states fo
 
 _______________________________________________________________________________________________________________
 
-**Formula application**
-
-Finding Q:
+**Finding Q:**
 
 Because my group did not try to measure the flow rate from the pumps, it will be easier to compare the quantities with a formula in a slightly different form:
 
@@ -143,11 +141,23 @@ q_counter = -41.65
 
 *q is in kJ/kg*
 
-Finding change in h:
+**Finding change in h:**
 
+The change in enthalpy of the two liquids is also useful information. Using the respective h values, I took the final minus the initial to find these values:
 
+**parallel**
+change in hhot = -83.61
+change in hcold = 62.90
+
+**counter**
+change in hhot = -104.55
+change in hcold = 62.90
+
+*change in h is in kJ/kg*
 
 _______________________________________________________________________________________________________________
+
+**External heat exchange analysis**
 
 It appears q_counter is the greatest. Both values are negative, which signals Q out, according to sign conventions. However, the results are not the most reliable. There were precision limitations with the chart I was using, which signals great error. Furthermore, only one value in the counterflow was significantly different, that being Tho. This value was lower than expected, which may have affected the results.
 
@@ -155,8 +165,13 @@ For an ideal heat exchanger, having minimized q should make the process better a
 
 The q found here would likely be minimized if many of the components in the experiment were better insulated. Notably, the hot side of the exchanger cooled by 6 deg C, and the cold side warmed by 4 deg C. This temperature was measured outside of the exchanger internals, so these temperatures will have some interaction with the environment. Reducing the external heat transfer should also make the heat exchanger better. 
 
+**Change in enthalpy analysis**
+
+From these two trials, it appears that the counterflow system was better at removing heat from the hot water, but not better at adding heat to the cold water. This is possibly also due to experimental variation, as the experiment was not run many times for more data points. 
 _______________________________________________________________________________________________________________
 
 **Conclusion**
 
-Due to limited data collection, the results found are unreliable. However, there appears to be some difference between parallel and counterflow systems. The presence of external Q was also observed.
+Due to limited data collection, the results found are unreliable. The experiment took single trials, so there is no practical way to conduct a data analysis, and more trials are desired to make a more definitive conclusion. 
+
+However, there appears to be some difference between parallel and counterflow systems; the counterflow system appears to reject more heat from the system; more heat was removed from the hot water, and more external heat loss was observed. As such, a counterflow system may be more desired for a greater cooling effect. A parallel system may be desirable for having less heat loss according to these results. 
