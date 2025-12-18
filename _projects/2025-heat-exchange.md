@@ -6,7 +6,7 @@ technologies: n/a
 image: /assets/images/image.png
 ---
 
-In a class assignment, we were given the option do complete a fixed mini-lab. We experimentally analyzed a heat transfer setup by measuring the temperatures of the water used and the external components of the heat exchanger. This analysis was intended to identify differences between ideal and real heat exchangers. 
+In a class assignment, we were given the option to complete a fixed mini-lab. We experimentally analyzed a heat transfer setup by measuring the temperatures of the water used and the external components of the heat exchanger. This analysis was intended to identify differences between ideal and real heat exchangers. 
 
 _______________________________________________________________________________________________________________
 
@@ -14,10 +14,11 @@ ________________________________________________________________________________
 
 Two containers were used to hold water. One was a bucket with an electric immersion heater, and the other was a bucket with an insulating bag and ice. The "hot" reservoir held red-dyed water, while the "cold" reservoir held blue-dyed water. The hot reservoir was held to be close to 40 degrees C. The cold reservoir was held from 4 to 10 degrees C.
 
-Two battery powered pumps were placed within the tanks. They were connected to the heat exchanger with plastic hoses. There were two pipe configurations used:
+Two battery powered pumps were placed within the tanks. They were connected to the heat exchanger with plastic hoses. This heat exchanger had two channels where water could flow. The channels run parallel to each other, so that there are two parallel holes on two sides of the exchanger. There were two pipe configurations used:
 
-- **parallel flow**, in which the path of the reservoirs were the same
-- **counterflow**, in which the path of the reservoirs were reversed
+- **parallel flow** - the cold and hot water paths faced the same direction; they went into and out of the heat reservoir through the same side
+
+- **counterflow** - the cold and hot water paths faced opposite directions; the outflow side for one liquid was the inflow side for the other, which meant the two liquids would flow in opposite directions
 
 The heat exchanger flowed out to two separate plastic containers with no other additional items. 
 
@@ -35,7 +36,7 @@ ________________________________________________________________________________
 
 _______________________________________________________________________________________________________________
 
-A heat exchanger works by allowing two fluids of different temperature to transfer heat. In this case, the two fluids are dyed water. An ideal heat exchanger is considered adiabatic (no external heat transfer) and steady state (equal in and out flow). These assumptions will be false in real world scenarios, especially this one. 
+A heat exchanger works by allowing two fluids of different temperature to transfer heat. In this case, the two fluids are dyed water. An ideal heat exchanger is considered adiabatic (no external heat transfer) and steady state (equal in and out flow). These assumptions will be false in real world scenarios, especially this one, because materials usually conduct some amount of heat. This exchanger was made out of metal, so it will conduct a considerable amount of heat.  
 
 _______________________________________________________________________________________________________________
 
@@ -100,11 +101,11 @@ For an ideal, adiabatic scenario, Q is also 0. This means the change in enthalpy
 
 For this real setup, there will likely be some sort of heat exchange with the environment. This exchange occurs at different points of the system. For instance, the temperature across the exchanger will be different, based on which specific part of the exchanger is measured. 
 
-For my analysis, I am going to find the external Q of the real exchanger in two setups. 
+For my analysis, I am going to find the external Q of the real exchanger in two setups. I am also going to calculate the heat rejected from the hot streama and the heat intruduced to the cold stream. 
 
 _______________________________________________________________________________________________________________
 
-**Calculation**
+**Calculations**
 
 Using my table data, I can find the approximate enthalpies of all four states found in this setup. I am using the atmospheric pressure value, that being 101.325 kPa. The values of h are found with emperically derived tables, which are generally consistent. The liquids here are assumed to have no significant vapor, because they are well below the boiling point at 1 atm.
 
@@ -128,6 +129,8 @@ ________________________________________________________________________________
 
 **Formula application**
 
+Finding Q:
+
 Because my group did not try to measure the flow rate from the pumps, it will be easier to compare the quantities with a formula in a slightly different form:
 
 ![Shaded rendering of earlier version]({{ "/assets/images/spec.png" | relative_url }}){: .inline-image-c style="width: 576px"}
@@ -139,6 +142,10 @@ q_parallel = -20.71
 q_counter = -41.65
 
 *q is in kJ/kg*
+
+Finding change in h:
+
+
 
 _______________________________________________________________________________________________________________
 
