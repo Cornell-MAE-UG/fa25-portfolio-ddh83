@@ -137,7 +137,7 @@ Because my group did not try to measure the flow rate from the pumps, it will be
 
 From this formula, I computed the q values to be the following:
 
-$q_{parallel}$ = -20.71 
+q^{\text{parallel}} = -20.71 
 
 $q_{counter}$ = -41.65
 
