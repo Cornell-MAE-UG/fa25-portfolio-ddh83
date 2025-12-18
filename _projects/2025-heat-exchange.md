@@ -113,17 +113,17 @@ The necessary quantity for my calculations was enthalpy, a type of internal ener
 
 **parallel**
 
-- hhi at 38.9 C = 167.53
-- hho at 22.7 C = 83.92
-- hci at 4.8 C = 21.02
-- hco at 19.2 C = 83.92
+- h<sub>hi</sub> at 38.9 C = 167.53
+- h<sub>ho</sub> at 22.7 C = 83.92
+- h<sub>ci</sub> at 4.8 C = 21.02
+- h<sub>co</sub> at 19.2 C = 83.92
 
 **counter**
 
-- hhi at 39.2 C = 167.53
-- hho at 16.8 C = 62.98
-- hci at 6.2 C = 21.02
-- hco at 22.0 C = 83.92
+- h<sub>hi</sub> at 39.2 C = 167.53
+- h<sub>ho</sub> at 16.8 C = 62.98
+- h<sub>ci</sub> at 6.2 C = 21.02
+- h<sub>co</sub> at 22.0 C = 83.92
 
 *Most values are approximations. Specific enthalpy is measured in kJ/kg*
 
@@ -137,9 +137,9 @@ Because my group did not try to measure the flow rate from the pumps, it will be
 
 From this formula, I computed the q values to be the following:
 
-q^{\text{parallel}} = -20.71 
+q<sub>parallel</sub> = -20.71 
 
-$q_{counter}$ = -41.65
+q<sub>counter</sub> = -41.65
 
 *q is in kJ/kg*
 
@@ -148,12 +148,12 @@ $q_{counter}$ = -41.65
 The change in enthalpy of the two liquids is also useful information. Using the respective h values, I took the final minus the initial to find these values:
 
 **parallel**
-Δ $h_{h}$ = -83.61
-Δ $h_{c}$ = 62.90
+Δ h<sub>h</sub> = -83.61
+Δ h<sub>c</sub> = 62.90
 
 **counter**
-change in hhot = -104.55
-change in hcold = 62.90
+Δ h<sub>h</sub> = -104.55
+Δ h<sub>c</sub> = 62.90
 
 *change in h is in kJ/kg*
 
@@ -161,7 +161,7 @@ ________________________________________________________________________________
 
 **External heat exchange analysis**
 
-It appears $q_{counter}$ is the greater of the two q values. Both values are negative, which signals q out, according to sign conventions. However, the results are not the most reliable. There were precision limitations with the chart I was using, which signals great error. Furthermore, only one value in the counterflow was significantly different, that being Tho. This value was lower than expected, which may have affected the results.
+It appears q<sub>counter</sub> is the greater of the two q values. Both values are negative, which signals q out, according to sign conventions. However, the results are not the most reliable. There were precision limitations with the chart I was using, which signals great error. Furthermore, only one value in the counterflow was significantly different, that being Tho. This value was lower than expected, which may have affected the results.
 
 For an ideal heat exchanger, having minimized q should make the process better at exchanging, but in these two examples, the one with more q cooled slightly better. This suggests that either the experiment had many deviations, causing these results, or that the counterflow system really performs like this. 
 
