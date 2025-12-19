@@ -72,7 +72,7 @@ ________________________________________________________________________________
 
 For analysis, the temperature data can help determine the heat transfer inside the exchanger. This is done through a control-volume approach, in which an equation is used to balance the energy changes within the system. This equation factors in the flow of two liquids.
 
-![Shaded rendering of earlier version]({{ "/assets/images/full equation.png" | relative_url }}){: .inline-image-c style="width: 576px"}
+![Shaded rendering of earlier version]({{ "/assets/images/1.png" | relative_url }}){: .inline-image-c style="width: 576px"}
 
 This equation can be further simplified to a more useful form:
 
@@ -86,13 +86,13 @@ This equation can be further simplified to a more useful form:
 
 - m<sub>h</sub> and m<sub>c</sub> are equal, because the pumps used are the same.
 
-- Kinetic and gravitational potential k and u are 0, because they are negligible. The water has mass, but it does not significantly change in elevation, and the velocity of the water from the pumps is not large. 
+- Kinetic and gravitational potential KE and PE are 0, because they are negligible. The water has mass, but it does not significantly change in elevation, and the velocity of the water from the pumps is not large. 
 
 The above simplifications allow for a relatively accurate analysis of the system without additional data. 
 
 The final equation is as follows:
 
-![Shaded rendering of earlier version]({{ "/assets/images/eqfinal.png" | relative_url }}){: .inline-image-c style="width: 576px"}
+![Shaded rendering of earlier version]({{ "/assets/images/2.png" | relative_url }}){: .inline-image-c style="width: 576px"}
 
 
 _______________________________________________________________________________________________________________
@@ -105,9 +105,9 @@ For my analysis, I am going to find the external q (specific heat transfer) of t
 
 _______________________________________________________________________________________________________________
 
-**Finding necessary h values**
+**Finding necessary enthalpy h values**
 
-The necessary quantity for my calculations was enthalpy, a type of internal energy that also factors the ability of gas to do work. Using a water data table from the school textbook *Fundamentals of Engineering Thermodynamics*, I found the approximate enthalpies of all four states found in this setup. This table compared known values (temperature) to ones more difficult to measure (enthalpy). I classified my two water types as being saturated liquids at 1 atm of pressure. 
+The necessary quantity for my calculations was enthalpy, a type of internal energy that also factors the ability of gas to do work. Using a water data table from the school textbook *Fundamentals of Engineering Thermodynamics*, I found the approximate enthalpies of all four states in this setup. This table compared known values (temperature) to ones more difficult to measure (enthalpy). I classified my two water types as being saturated liquids at 1 atm of pressure. 
 
 **parallel**
 
@@ -127,11 +127,11 @@ The necessary quantity for my calculations was enthalpy, a type of internal ener
 
 _______________________________________________________________________________________________________________
 
-**Finding q:**
+**Finding heat exchange q:**
 
 Because my group did not try to measure the flow rate from the pumps, it will be easier to compare the quantities with a formula in a slightly different form:
 
-![Shaded rendering of earlier version]({{ "/assets/images/spec.png" | relative_url }}){: .inline-image-c style="width: 576px"}
+![Shaded rendering of earlier version]({{ "/assets/images/3.png" | relative_url }}){: .inline-image-c style="width: 576px"}
 
 From this formula, I computed the q values to be the following:
 
