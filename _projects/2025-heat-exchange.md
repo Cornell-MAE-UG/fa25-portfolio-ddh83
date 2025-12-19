@@ -146,11 +146,15 @@ q<sub>counter</sub> = -41.65
 The change in enthalpy of the two liquids is also useful information. Using the respective h values, I took the final minus the initial to find these values:
 
 **parallel**
+
 Δ h<sub>h</sub> = -83.61
+
 Δ h<sub>c</sub> = 62.90
 
 **counter**
+
 Δ h<sub>h</sub> = -104.55
+
 Δ h<sub>c</sub> = 62.90
 
 *change in h is in kJ/kg*
@@ -176,6 +180,3 @@ ________________________________________________________________________________
 Due to limited data collection, the results found are unreliable. The experiment took single trials, so there is no practical way to conduct a data analysis, and more trials are desired to make a more definitive conclusion. 
 
 However, there appears to be some difference between parallel and counterflow systems; the counterflow system appears to reject more heat from the system; more heat was removed from the hot water, and more external heat loss was observed. As such, a counterflow system may be more desired for a greater cooling effect. A parallel system may be desirable for having less heat loss according to these results. 
-
-
-Q&#775;
