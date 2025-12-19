@@ -12,7 +12,7 @@ ________________________________________________________________________________
 
 **The setup for the project can be described as the following:**
 
-Two containers were used to hold water. One was a bucket with an electric immersion heater, and the other was a bucket with an insulating bag and ice. The "hot" reservoir held red-dyed water, while the "cold" reservoir held blue-dyed water. The hot reservoir was held to be close to 40 degrees C. The cold reservoir was held from 4 to 10 degrees C.
+Two containers were used to hold water. One was a bucket with an electric immersion heater, and the other was a bucket with an insulating bag and ice. The "hot" reservoir held red-dyed water, while the "cold" reservoir held blue-dyed water. The hot reservoir was held to be close to 40 °C. The cold reservoir was held from 4 to 10 °C.
 
 Two battery powered pumps were placed within the tanks. They were connected to the heat exchanger with plastic hoses. This heat exchanger had two channels where water could flow. The channels run parallel to each other, so that there are two parallel holes on two sides of the exchanger. There were two pipe configurations used:
 
@@ -50,31 +50,29 @@ The pumping process is not steady state, because the pumps are being used in a s
 
 The heat exchanger is not adiabatic, because it is made out of metal and is not perfectly insulated. This means the exchanger interacts with the ambient air. The rubber hosing is more insulating, but it is not a perfect insulator either. 
 
-While it is known this setup is not adiabatic nor steady state, it can be useful to calculate how much the real process deviates from ideal processes. My group used several trials to obtain temperatures of both red and blue liquids befor and after the heat exchange. 
+While it is known this setup is not adiabatic nor steady state, it can be useful to calculate how much the real process deviates from ideal processes. My group used several trials to obtain temperatures of both red and blue liquids before and after the heat exchange. 
 
 *From now, the hot and cold reservoirs will be denoted as h and c. The initial and final states of any reservoir will be denoted as i and f. In and outflow will be denoted as i and o*
 
 **Temperature measurements:**
 
 Trial 1: Parallel
-- T<sub>hi</sub> = 38.9 deg C
-- T<sub>hf</sub> = 22.7 deg C
-- T<sub>ci</sub> = 4.8 deg C
-- T<sub>cf</sub> = 19.2 deg C
+- T<sub>hi</sub> = 38.9 °C
+- T<sub>hf</sub> = 22.7 °C
+- T<sub>ci</sub> = 4.8 °C
+- T<sub>cf</sub> = 19.2 °C
 
 Trial 2: Counter
-- T<sub>hi</sub> = 39.2 deg C
-- T<sub>hf</sub> = 16.8 deg C
-- T<sub>ci</sub> = 6.2 deg C
-- T<sub>cf</sub> = 22.0 deg C
+- T<sub>hi</sub> = 39.2 °C
+- T<sub>hf</sub> = 16.8 °C
+- T<sub>ci</sub> = 6.2 °C
+- T<sub>cf</sub> = 22.0 °C
 
 _______________________________________________________________________________________________________________
 
 For analysis, the temperature data can help determine the heat transfer inside the exchanger. This is done through a control-volume approach, in which an equation is used to balance the energy changes within the system. This equation factors in the flow of two liquids.
 
-![Shaded rendering of earlier version]({{ "/assets/images/equation.png" | relative_url }}){: .inline-image-c style="width: 576px"}
-
-*I am using u in this equation to represent gravitational potential energy. Note that u is usually used in thermodynamics to represent specific internal energy*
+![Shaded rendering of earlier version]({{ "/assets/images/full equation.png" | relative_url }}){: .inline-image-c style="width: 576px"}
 
 This equation can be further simplified to a more useful form:
 
@@ -103,27 +101,27 @@ For an ideal, adiabatic scenario, q is also 0. This means the change in enthalpy
 
 For this real setup, there will likely be some sort of heat exchange with the environment. This exchange occurs at different points of the system. For instance, the temperature across the exchanger will be different, based on which specific part of the exchanger is measured. 
 
-For my analysis, I am going to find the external q (specific heat transfer) of the real exchanger in two setups. I am also going to calculate the heat rejected from the hot streama and the heat intruduced to the cold stream. 
+For my analysis, I am going to find the external q (specific heat transfer) of the real exchanger in two setups. I am also going to calculate the heat rejected from the hot stream and the heat introduced to the cold stream. 
 
 _______________________________________________________________________________________________________________
 
 **Finding necessary h values**
 
-The necessary quantity for my calculations was enthalpy, a type of internal energy that also factors the ability of gas to do work. Using my table data, I found the approximate enthalpies of all four states found in this setup. This table compared known values (temperature) to ones more difficult to measure (enthalpy). I classified my two water types as being saturated liquids at 1 atm of pressure. 
+The necessary quantity for my calculations was enthalpy, a type of internal energy that also factors the ability of gas to do work. Using a water data table from the school textbook *Fundamentals of Engineering Thermodynamics*, I found the approximate enthalpies of all four states found in this setup. This table compared known values (temperature) to ones more difficult to measure (enthalpy). I classified my two water types as being saturated liquids at 1 atm of pressure. 
 
 **parallel**
 
-- h<sub>hi</sub> at 38.9 C = 167.53
-- h<sub>ho</sub> at 22.7 C = 83.92
-- h<sub>ci</sub> at 4.8 C = 21.02
-- h<sub>co</sub> at 19.2 C = 83.92
+- h<sub>hi</sub> at 38.9 °C = 167.53
+- h<sub>ho</sub> at 22.7 °C = 83.92
+- h<sub>ci</sub> at 4.8 °C = 21.02
+- h<sub>co</sub> at 19.2 °C  = 83.92
 
 **counter**
 
-- h<sub>hi</sub> at 39.2 C = 167.53
-- h<sub>ho</sub> at 16.8 C = 62.98
-- h<sub>ci</sub> at 6.2 C = 21.02
-- h<sub>co</sub> at 22.0 C = 83.92
+- h<sub>hi</sub> at 39.2 °C = 167.53
+- h<sub>ho</sub> at 16.8 °C = 62.98
+- h<sub>ci</sub> at 6.2 °C = 21.02
+- h<sub>co</sub> at 22.0 °C = 83.92
 
 *Most values are approximations. Specific enthalpy is measured in kJ/kg*
 
@@ -161,7 +159,7 @@ ________________________________________________________________________________
 
 **External heat exchange analysis**
 
-It appears q<sub>counter</sub> is the greater of the two q values. Both values are negative, which signals q out, according to sign conventions. However, the results are not the most reliable. There were precision limitations with the chart I was using, which signals great error. Furthermore, only one value in the counterflow was significantly different, that being Tho. This value was lower than expected, which may have affected the results.
+It appears q<sub>counter</sub> is the greater of the two q values. Both values are negative, which signals q out, according to sign conventions. However, the results are not the most reliable. There were precision limitations with the chart I was using, which signals great error. Furthermore, only one value in the counterflow was significantly different, that being T<sub>ho</sub>. This value was lower than expected, which may have affected the results.
 
 For an ideal heat exchanger, having minimized q should make the process better at exchanging, but in these two examples, the one with more q cooled slightly better. This suggests that either the experiment had many deviations, causing these results, or that the counterflow system really performs like this. 
 
