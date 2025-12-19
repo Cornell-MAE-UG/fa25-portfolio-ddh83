@@ -92,7 +92,7 @@ The above simplifications allow for a relatively accurate analysis of the system
 
 The final equation is as follows:
 
-![Shaded rendering of earlier version]({{ "/assets/images/2.png" | relative_url }}){: .inline-image-c style="width: 350px"}
+![Shaded rendering of earlier version]({{ "/assets/images/2.png" | relative_url }}){: .inline-image-c style="width: 350px; display:block; margin:auto;"}
 
 
 _______________________________________________________________________________________________________________
@@ -131,7 +131,7 @@ ________________________________________________________________________________
 
 Because my group did not try to measure the flow rate from the pumps, it will be easier to compare the quantities with a formula in a slightly different form:
 
-![Shaded rendering of earlier version]({{ "/assets/images/3.png" | relative_url }}){: .inline-image-c style="width: 576px"}
+![Shaded rendering of earlier version]({{ "/assets/images/3.png" | relative_url }}){: .inline-image-c style="width: 350px; display:block; margin:auto;"}
 
 From this formula, I computed the q values to be the following:
 
@@ -181,4 +181,3 @@ Due to limited data collection, the results found are unreliable. The experiment
 
 However, there appears to be some difference between parallel and counterflow systems; the counterflow system appears to reject more heat from the system; more heat was removed from the hot water, and more external heat loss was observed. As such, a counterflow system may be more desired for a greater cooling effect. A parallel system may be desirable for having less heat loss according to these results. 
 
-![Shaded rendering of earlier version]({{ "/assets/images/2.png" | relative_url }}){: .inline-image-c style="width: 350px; display:block; margin:auto;"}
