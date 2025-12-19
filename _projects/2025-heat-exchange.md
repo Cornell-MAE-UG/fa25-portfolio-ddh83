@@ -92,7 +92,7 @@ The above simplifications allow for a relatively accurate analysis of the system
 
 The final equation is as follows:
 
-![Shaded rendering of earlier version]({{ "/assets/images/2.png" | relative_url }}){: .inline-image-c style="width: 576px"}
+![Shaded rendering of earlier version]({{ "/assets/images/2.png" | relative_url }}){: .inline-image-c style="width: 400px"}
 
 
 _______________________________________________________________________________________________________________
