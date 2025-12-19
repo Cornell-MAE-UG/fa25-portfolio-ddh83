@@ -178,4 +178,4 @@ Due to limited data collection, the results found are unreliable. The experiment
 However, there appears to be some difference between parallel and counterflow systems; the counterflow system appears to reject more heat from the system; more heat was removed from the hot water, and more external heat loss was observed. As such, a counterflow system may be more desired for a greater cooling effect. A parallel system may be desirable for having less heat loss according to these results. 
 
 
-q</dot>q
+Q&#775;
