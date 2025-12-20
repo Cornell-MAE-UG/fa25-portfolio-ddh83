@@ -177,7 +177,7 @@ ________________________________________________________________________________
 
 **Conclusion**
 
-Due to limited data collection, the results found are unreliable. The experiment took single trials, so there is no practical way to conduct a data analysis, and more trials are desired to make a more definitive conclusion. 
+Due to limited data collection, the results found are unreliable. The experiment took single trials, so there is no practical way to conduct a data analysis, and more trials are desired to make a more definitive conclusion. One significant source of error could be assuming the mass flow of the system was the same; although the same type of pump was used for both bodies of water and turned on at the same time, there was some delay and inconsistency in the pump action. This could be solved with more sophisticated pump systems and more trials.
 
-However, there appears to be some difference between parallel and counterflow systems; the counterflow system appears to reject more heat from the system; more heat was removed from the hot water, and more external heat loss was observed. As such, a counterflow system may be more desired for a greater cooling effect. A parallel system may be desirable for having less heat loss according to these results. 
+However, from these limited results, there appears to be some difference between parallel and counterflow systems; the counterflow system appears to reject more heat from the system; more heat was removed from the hot water, and more external heat loss was observed. As such, a counterflow system may be more desired for a greater cooling effect. A parallel system may be desirable for having less heat loss according to these results. 
 
