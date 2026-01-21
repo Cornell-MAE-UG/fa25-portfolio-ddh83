@@ -20,7 +20,7 @@ Aspiring engineering student with a strong foundation in.... Passionate about ..
 #### Education
 - **Cornell University**  
   *Bachelor of Science in Mechanical and Aerospace Engineering*  
-  GPA: 3.1/4.0 | Expected Graduation: May, 2028
+  GPA: 3.3/4.0 | Expected Graduation: May, 2028
 
 - **Cave Spring High School**  
   *High School Diploma*  
