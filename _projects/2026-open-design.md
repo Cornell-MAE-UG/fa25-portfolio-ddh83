@@ -26,30 +26,33 @@ Research has shown that over-the-row insect netting can reduce SLF population by
 
 Despite its potential effectiveness at protecting grape vines, very fine mesh has seen limited use.  Large-scale vineyards are unable to efficiently use small scale, drape-over-the-vine nets because of the significant time and labor required in installation and removal. If this process is made more efficient, more vineyards could use this fine mesh to prevent lanternflies from accessing grapevines. 
 
-**Proposed direction**
 
-*Concept:* **Adjustable Netting Post**
+**Concept:** *Adjustable Netting Post*
 
-*What it is:* The Adjustable Netting Post is a method of efficiently raising and lowering over-the-row insect netting during harvest. It is a telescoping post which can extend roughly 4 feet, allowing for over-the-row netting to be raised before harvest.
+**What it is:**
 
-*How it would be used:*
+The Adjustable Netting Post is a method of efficiently raising and lowering over-the-row insect netting during harvest. It is a telescoping post which can extend roughly 4 feet, allowing for over-the-row netting to be raised before harvest.
+
+**How it would be used:**
 1. Each modified trellis post is extendable. Over-the-row netting is then installed over the trellis.
 2. When the vines are ready for harvest, workers can extend the poles nearest to them, raising the netting. 
 3. They can then harvest grapes, and lower the Adjustable Netting Posts behind them
 
-*Why it’s better than the status quo:*
+**Why it’s better than the status quo:**
 - Eliminates need to fully uninstall and reinstall SLF nets before and after harvest
 - Eliminates period of vulnerability to SLF damage while nets are down
 - Can eventually be adapted to work for machine harvesting as well
 
-*End-of-semester proof-of-concept:* **Full sized telescoping post + net and demonstrated functionality**
+**End-of-semester proof-of-concept:** 
 
-*Key risks / unknowns:*
+*Full sized telescoping post + net and demonstrated functionality*
+
+**Key risks / unknowns:**
 - Tangle Risk — Nets can tangle in the vines or on the post itself, damaging vines and increasing difficulty of operation (Test: Trials removing the nets from various bushes)
 - Ground-Net Gap – Attaching the net to the bottom of the post may create a gap between the net and the ground, lowering the system’s effectiveness (Test: Minimize gap + do research)
 - Post Accessibility - Inability to easily access the posts for raising/lowering would defeat the system’s purpose of saving labor (Test: Measure time required to raise/lower post)
 
-*Questions for the client:*
+**Questions for the client:**
 1. How often do you use hand harvesting (as opposed to using harvesters)?  
     Decision affected: focus on hand harvesting in our design
 2. At what height on the vines do your variety of grapes grow?
