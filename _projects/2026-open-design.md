@@ -71,3 +71,25 @@ The Adjustable Netting Post is a method of efficiently raising and lowering over
 ![Shaded rendering of earlier version]({{ "/assets/images/vines.png" | relative_url }}){: .inline-image-c style="width: 576px"}
 
 _______________________________________________________________________________________________________________
+
+**Functional Prototype**
+
+Our functional prototype tests the core telescoping mechanism of the Adjustable Netting Post. The goal of this prototype was to validate three criteria for our pole system:
+
+1. The poles extend and retract smoothly
+
+2. The poles lock securely at full extension
+
+3. The poles allow for a reasonable operation force
+
+The prototype's fit for these criteria were assessed with quanititative tests after construction. 
+
+**Bill of Materials**
+
+| Name | Description | Specs | Fabrication Details |
+|------|-------------|-------|---------------------|
+| Outer Tube | Cardboard tube from McMaster package | OD: 106mm, ID: 104mm, Length: 1.96m | Cut a 54″ slot ~1″ thick; cut a J at the top; cut hole in back for handle; attach pulley |
+| Inner Tube | Cardboard tube from McMaster package | OD: 81mm, ID: 79mm, Length: 1.96m | Cut 2 holes opposite each other for handle to pass through at bottom |
+| Pulley | 3D-printed PLA pulley for lifting & locking mechanism (outer casing, side supports, center axis, pulley wheel) | ~60×60mm, pulley diameter ~20mm | Side supports epoxied to outer tube; screw attaches center axis to outer tube |
+| Rope | Nylon thread for pulley (scavenged) | Arbitrary length (≥190cm) | Tie to handle, slide through pulley |
+| Handle | Wooden handle for raising & lowering | 95×81mm rectangle + 105×20mm handle | Slides through outer tube hole into inner tube; thick section fits inner tube slots; thin section sticks out through slot |
