@@ -75,7 +75,7 @@ The Adjustable Netting Post is a method of efficiently raising and lowering over
 
 _______________________________________________________________________________________________________________
 
-**Functional Prototype**
+## Functional Prototype
 
 Our functional prototype tests the core telescoping mechanism of the Adjustable Netting Post. The goal of this prototype was to validate three criteria for our pole system:
 
