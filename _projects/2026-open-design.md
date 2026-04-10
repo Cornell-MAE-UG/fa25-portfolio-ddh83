@@ -16,6 +16,8 @@ ________________________________________________________________________________
 ## Table of Contents
 - [Client Pitch](#client-pitch)
 - [Functional Prototype](#functional-prototype)
+_______________________________________________________________________________________________________________
+
 ## Client Pitch
 **Adjustable Netting Post** 
 **Team:** FABulous engineers who make lanternflies DI 
@@ -75,7 +77,7 @@ The Adjustable Netting Post is a method of efficiently raising and lowering over
 
 _______________________________________________________________________________________________________________
 
-## Functional Prototype
+### Functional Prototype
 
 Our functional prototype tests the core telescoping mechanism of the Adjustable Netting Post. The goal of this prototype was to validate three criteria for our pole system:
 
@@ -96,6 +98,60 @@ The prototype's fit for these criteria were assessed with quanititative tests af
 | Pulley | 3D-printed PLA pulley for lifting & locking mechanism (outer casing, side supports, center axis, pulley wheel) | ~60×60mm, pulley diameter ~20mm | Side supports epoxied to outer tube; screw attaches center axis to outer tube |
 | Rope | Nylon thread for pulley (scavenged) | Arbitrary length (≥190cm) | Tie to handle, slide through pulley |
 | Handle | Wooden handle for raising & lowering | 95×81mm rectangle + 105×20mm handle | Slides through outer tube hole into inner tube; thick section fits inner tube slots; thin section sticks out through slot |
+
+
+### Moving Components Sketches
+
+<img src="{{ "/assets/images/Moving Components Sketch.png" | relative_url }}" width="100%" alt="Moving Components Sketch">
+
+### Initial CAD
+
+**Extended and locked into place:**
+
+<img src="{{ "/assets/images/Extended and Locked.png" | relative_url }}" width="80%" alt="Extended and Locked CAD">
+
+**Unextended:**
+
+<img src="{{ "/assets/images/Unextended.png" | relative_url }}" width="80%" alt="Unextended CAD">
+
+### Assembly Documentation
+
+**Step 1: Attach pulley body/wheel to top of base tube**
+
+Install the pulley pin and pulley wheel/body onto the top of the outer tube.
+
+<img src="{{ "/assets/images/Assembly 1a.png" | relative_url }}" width="80%" alt="Assembly Step 1 — Pulley installation">
+
+**Step 2: Slide inner tube into base tube**
+
+Align the inner tube handle slot with the outer tube pin channel.
+
+<img src="{{ "/assets/images/Assembly 2a 1.png" | relative_url }}" width="80%" alt="Outer Tube — Pin channel shown">
+
+<img src="{{ "/assets/images/Assembly 2a 2.png" | relative_url }}" width="80%" alt="Inner Tube — Handle slot shown">
+
+**Step 3: Insert pin handle through the outer tube into the inner tube**
+
+The thick section sits inside the inner tube while the thin handle section protrudes through the slot.
+
+<img src="{{ "/assets/images/Assembly 3a - Pin Handle.png" | relative_url }}" width="48%" alt="Pin Handle">
+<img src="{{ "/assets/images/Assembly 3a - Pin Handle Slot.png" | relative_url }}" width="48%" alt="Pin Handle Slot">
+
+<img src="{{ "/assets/images/Assembly 3b.png" | relative_url }}" width="80%" alt="Pin handle inserted — end result">
+
+**Step 4: Tie rope around pin handle, run through mounted pulley**
+
+Thread the nylon rope from the handle up and over the pulley at the top of the outer tube.
+
+<img src="{{ "/assets/images/Assembly 4a.png" | relative_url }}" width="48%" alt="Rope and pulley setup">
+<img src="{{ "/assets/images/Assembly 4b.png" | relative_url }}" width="48%" alt="Pulley close-up with rope threaded">
+
+**Step 5: Check that the pole can extend**
+
+Verify smooth extension by pulling the rope or pushing the handle upward.
+
+<img src="{{ "/assets/images/Assembly 5a.png" | relative_url }}" width="60%" alt="Pole extended">
+
 
 #### Tube Deflection Test
 *Testing alignment between the two tubes to prevent damage from torquing.*
