@@ -102,17 +102,17 @@ The prototype's fit for these criteria were assessed with quanititative tests af
 
 **Moving Components Sketches**
 
-<img src="{{ "/assets/images/2026od/Moving Components Sketch.png" | relative_url }}" width="100%" alt="Moving Components Sketch">
+![Shaded rendering of earlier version]({{ "/assets/images/2026od/Moving.png" | relative_url }}){: .inline-image-c style="width: 576px"}
 
 **Initial CAD**
 
 Extended and locked into place:
 
-<img src="{{ "/assets/images/2026od/Extended and Locked.png" | relative_url }}" width="80%" alt="Extended and Locked CAD">
+![Shaded rendering of earlier version]({{ "/assets/images/2026od/Extended.png" | relative_url }}){: .inline-image-c style="width: 576px"}
 
 Unextended:
 
-<img src="{{ "/assets/images/2026od/Unextended.png" | relative_url }}" width="80%" alt="Unextended CAD">
+![Shaded rendering of earlier version]({{ "/assets/images/2026od/Unextended.png" | relative_url }}){: .inline-image-c style="width: 576px"}
 
 **Assembly Documentation**
 
@@ -120,37 +120,41 @@ Step 1: Attach pulley body/wheel to top of base tube
 
 *Install the pulley pin and pulley wheel/body onto the top of the outer tube.*
 
-<img src="{{ "/assets/images/2026od/A1a.jpg" | relative_url }}" width="80%" alt="Assembly Step 1 — Pulley installation">
+![Shaded rendering of earlier version]({{ "/assets/images/2026od/A1a.jpg" | relative_url }}){: .inline-image-c style="width: 576px"}
+
+![Shaded rendering of earlier version]({{ "/assets/images/2026od/A1b.jpg" | relative_url }}){: .inline-image-c style="width: 576px"}
+
+![Shaded rendering of earlier version]({{ "/assets/images/2026od/A1c.jpg" | relative_url }}){: .inline-image-c style="width: 576px"}
 
 Step 2: Slide inner tube into base tube
 
 *Align the inner tube handle slot with the outer tube pin channel.*
 
-<img src="{{ "/assets/images/2026od/A2a1.png" | relative_url }}" width="80%" alt="Outer Tube — Pin channel shown">
+![Shaded rendering of earlier version]({{ "/assets/images/2026od/A2a.jpg" | relative_url }}){: .inline-image-c style="width: 576px"}
 
-<img src="{{ "/assets/images/2026od/A2a2.png" | relative_url }}" width="80%" alt="Inner Tube — Handle slot shown">
+![Shaded rendering of earlier version]({{ "/assets/images/2026od/A2b.jpg" | relative_url }}){: .inline-image-c style="width: 576px"}
 
 Step 3: Insert pin handle through the outer tube into the inner tube
 
 *The thick section sits inside the inner tube while the thin handle section protrudes through the slot.*
 
-<img src="{{ "/assets/images/Assembly 3a - Pin Handle.png" | relative_url }}" width="48%" alt="Pin Handle">
-<img src="{{ "/assets/images/Assembly 3a - Pin Handle Slot.png" | relative_url }}" width="48%" alt="Pin Handle Slot">
+![Shaded rendering of earlier version]({{ "/assets/images/2026od/A3a.jpg" | relative_url }}){: .inline-image-c style="width: 576px"}
 
-<img src="{{ "/assets/images/Assembly 3b.png" | relative_url }}" width="80%" alt="Pin handle inserted — end result">
+![Shaded rendering of earlier version]({{ "/assets/images/2026od/A3b.jpg" | relative_url }}){: .inline-image-c style="width: 576px"}
 
 Step 4: Tie rope around pin handle, run through mounted pulley
 
 *Thread the nylon rope from the handle up and over the pulley at the top of the outer tube.*
 
-<img src="{{ "/assets/images/Assembly 4a.png" | relative_url }}" width="48%" alt="Rope and pulley setup">
-<img src="{{ "/assets/images/Assembly 4b.png" | relative_url }}" width="48%" alt="Pulley close-up with rope threaded">
+![Shaded rendering of earlier version]({{ "/assets/images/2026od/A4a.jpg" | relative_url }}){: .inline-image-c style="width: 576px"}
+
+![Shaded rendering of earlier version]({{ "/assets/images/2026od/A4b.jpg" | relative_url }}){: .inline-image-c style="width: 576px"}
 
 Step 5: Check that the pole can extend
 
 *Verify smooth extension by pulling the rope or pushing the handle upward.*
 
-<img src="{{ "/assets/images/Assembly 5a.png" | relative_url }}" width="60%" alt="Pole extended">
+![Shaded rendering of earlier version]({{ "/assets/images/2026od/A5a.jpg" | relative_url }}){: .inline-image-c style="width: 576px"}
 
 
 **Tube Deflection Test**
