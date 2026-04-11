@@ -100,35 +100,35 @@ The prototype's fit for these criteria were assessed with quanititative tests af
 | Rope | Nylon thread for pulley (scavenged) | Arbitrary length (≥190cm) | Tie to handle, slide through pulley |
 | Handle | Wooden handle for raising & lowering | 95×81mm rectangle + 105×20mm handle | Slides through outer tube hole into inner tube; thick section fits inner tube slots; thin section sticks out through slot |
 
-*** Moving Components Sketches ***
+**Moving Components Sketches**
 
-<img src="{{ "/assets/images/Moving Components Sketch.png" | relative_url }}" width="100%" alt="Moving Components Sketch">
+<img src="{{ "/assets/images/2026od/Moving Components Sketch.png" | relative_url }}" width="100%" alt="Moving Components Sketch">
 
-*** Initial CAD ***
+**Initial CAD**
 
 Extended and locked into place:
 
-<img src="{{ "/assets/images/Extended and Locked.png" | relative_url }}" width="80%" alt="Extended and Locked CAD">
+<img src="{{ "/assets/images/2026od/Extended and Locked.png" | relative_url }}" width="80%" alt="Extended and Locked CAD">
 
 Unextended:
 
-<img src="{{ "/assets/images/Unextended.png" | relative_url }}" width="80%" alt="Unextended CAD">
+<img src="{{ "/assets/images/2026od/Unextended.png" | relative_url }}" width="80%" alt="Unextended CAD">
 
-*** Assembly Documentation ***
+**Assembly Documentation**
 
 Step 1: Attach pulley body/wheel to top of base tube
 
 *Install the pulley pin and pulley wheel/body onto the top of the outer tube.*
 
-<img src="{{ "/assets/images/Assembly 1a.png" | relative_url }}" width="80%" alt="Assembly Step 1 — Pulley installation">
+<img src="{{ "/assets/images/2026od/A1a.jpg" | relative_url }}" width="80%" alt="Assembly Step 1 — Pulley installation">
 
 Step 2: Slide inner tube into base tube
 
 *Align the inner tube handle slot with the outer tube pin channel.*
 
-<img src="{{ "/assets/images/Assembly 2a 1.png" | relative_url }}" width="80%" alt="Outer Tube — Pin channel shown">
+<img src="{{ "/assets/images/2026od/A2a1.png" | relative_url }}" width="80%" alt="Outer Tube — Pin channel shown">
 
-<img src="{{ "/assets/images/Assembly 2a 2.png" | relative_url }}" width="80%" alt="Inner Tube — Handle slot shown">
+<img src="{{ "/assets/images/2026od/A2a2.png" | relative_url }}" width="80%" alt="Inner Tube — Handle slot shown">
 
 Step 3: Insert pin handle through the outer tube into the inner tube
 
@@ -154,17 +154,19 @@ Step 5: Check that the pole can extend
 
 
 **Tube Deflection Test**
+
 *Testing alignment between the two tubes to prevent damage from torquing.*
 
-- *Description:* Inner tube is fully extended using the pin mechanism. The angle between the inner tube and vertical is measured to quantify deflection from ideal vertical orientation.
-- *Result:* Tube deflected 3.5°.
-- *Conclusion:* This test is of limited use in its current form. Spacers between the inner and base tubes were intended to stabilize the inner tube, but the first spacers had too-small tolerances and a second set could not be manufactured in time. The inner tube therefore has much more play than it would with spacers. This test will be repeated once spacers are fabricated.
+- **Description:** Inner tube is fully extended using the pin mechanism. The angle between the inner tube and vertical is measured to quantify deflection from ideal vertical orientation.
+- **Result:** Tube deflected 3.5°.
+- **Conclusion:** This test is of limited use in its current form. Spacers between the inner and base tubes were intended to stabilize the inner tube, but the first spacers had too-small tolerances and a second set could not be manufactured in time. The inner tube therefore has much more play than it would with spacers. This test will be repeated once spacers are fabricated.
 
 **Lifting Force Test**
+
 *Testing the pin/handle mechanism and pulley mechanism for required force to extend the pole.*
 
-- *Description:* Using a force gauge, the force required to lift the pin handle was recorded across several scenarios — both with the pulley and by lifting the pole directly from the pin handle. Scenarios included holding the inner tube stationary at an intermediate height, recording the force to start moving the inner tube, and extending the pole from minimum to maximum height in under two seconds. Ten trials of the third scenario were conducted and averaged.
-- *Results:*
+- **Description:** Using a force gauge, the force required to lift the pin handle was recorded across several scenarios — both with the pulley and by lifting the pole directly from the pin handle. Scenarios included holding the inner tube stationary at an intermediate height, recording the force to start moving the inner tube, and extending the pole from minimum to maximum height in under two seconds. Ten trials of the third scenario were conducted and averaged.
+- **Results:**
 
 | Scenario | Pin Handle | Pulley |
 |----------|-----------|--------|
@@ -174,21 +176,23 @@ Step 5: Check that the pole can extend
 
 Both methods required very low perceived effort.
 
-- *Conclusion:* Results are lower than expected, which is encouraging. The final prototype will use heavier PVC pipe (2.4 kg vs. 1.3 kg cardboard), so forces are expected to scale by approximately 1.85×. Research shows that the optimum pull strength for repeated tasks is roughly ⅓ of maximum pull strength (~130 N threshold). Current forces are well below this limit, and can be further reduced with lubrication between tubes and bearings for the pulley.
+- **Conclusion:** Results are lower than expected, which is encouraging. The final prototype will use heavier PVC pipe (2.4 kg vs. 1.3 kg cardboard), so forces are expected to scale by approximately 1.85×. Research shows that the optimum pull strength for repeated tasks is roughly ⅓ of maximum pull strength (~130 N threshold). Current forces are well below this limit, and can be further reduced with lubrication between tubes and bearings for the pulley.
 
 **Pin Locking Test**
+
 *Testing the pin/handle locking mechanism for quick extension and locking time.*
 
-- *Description:* Slot the pin handle into the J-slot to fully extend the rod. The rod must stay securely extended without additional support and must not suffer visible damage. The time to lift the handle and slot it into the lock was measured 5 times.
-- *Result:* The pole extended and remained in place without outside support. No visible damage was found after deconstruction. Average time to raise and lock: **3.48 seconds**.
-- *Conclusion:* The J-slot locking mechanism is sufficient to bear the weight of the pole. PVC tubes (2.4 kg) will increase the force, but PVC is significantly stronger than cardboard, so durability should not be an issue. Slotting the handle into the lock took slightly longer than desired; a wider initial J-slot opening could reduce the need for precise alignment.
+- **Description:** Slot the pin handle into the J-slot to fully extend the rod. The rod must stay securely extended without additional support and must not suffer visible damage. The time to lift the handle and slot it into the lock was measured 5 times.
+- **Result:** The pole extended and remained in place without outside support. No visible damage was found after deconstruction. Average time to raise and lock: **3.48 seconds**.
+- **Conclusion:** The J-slot locking mechanism is sufficient to bear the weight of the pole. PVC tubes (2.4 kg) will increase the force, but PVC is significantly stronger than cardboard, so durability should not be an issue. Slotting the handle into the lock took slightly longer than desired; a wider initial J-slot opening could reduce the need for precise alignment.
 
 **Pulley Wrap Locking Test**
+
 *Testing the pulley wrap locking mechanism for quick extension and locking time.*
 
-- *Description:* Using the pulley, extend the pole to full height, then wrap the rope around the pole so it remains fully extended without support. Measure time to fully secure the pole and check for damage.
-- *Result:* The pole extended easily with the pulley system. No visible damage. Four wraps of rope were needed for sufficient friction. Average time to lift and wrap: **10.98 seconds**.
-- *Conclusion:* Initial lifting took only 1–2 seconds; most time was spent wrapping the string at an awkwardly high position. Future designs can improve lock time by including a knob to wrap the rope around or a small spike on the pulling end of the rope to insert into the ground.
+- **Description:** Using the pulley, extend the pole to full height, then wrap the rope around the pole so it remains fully extended without support. Measure time to fully secure the pole and check for damage.
+- **Result:** The pole extended easily with the pulley system. No visible damage. Four wraps of rope were needed for sufficient friction. Average time to lift and wrap: **10.98 seconds**.
+- **Conclusion:** Initial lifting took only 1–2 seconds; most time was spent wrapping the string at an awkwardly high position. Future designs can improve lock time by including a knob to wrap the rope around or a small spike on the pulling end of the rope to insert into the ground.
 
 **Success Criteria Summary**
 
