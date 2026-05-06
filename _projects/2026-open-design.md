@@ -7,10 +7,10 @@ image: /assets/images/vines.png
 ---
 
 *2026 MAE 2250 project*
-
 *Adjustable Netting Post*
+*Daniel Han*
 
-*Daniel Han...*
+My team worked to create an efficient netting system to combat the effect of spotted lanternflies infesting vineyards. This project was designed in a purely mechanical mindset. 
 
 _______________________________________________________________________________________________________________
 ## Table of Contents
@@ -21,7 +21,7 @@ ________________________________________________________________________________
 _______________________________________________________________________________________________________________
 
 ## Client Pitch
-*The client pitch is the project proposal we sent to clients for feedback. This allowed us to clearly define the goals of the project. 
+*The client pitch is the project proposal we sent to clients for feedback. This allowed us to clearly define the goals of the project.*
 
 **Adjustable Netting Post** 
 **Team:** FABulous engineers who make lanternflies DI 
