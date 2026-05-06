@@ -24,7 +24,9 @@ ________________________________________________________________________________
 *The client pitch is the project proposal we sent to clients for feedback. This allowed us to clearly define the goals of the project.*
 
 **Adjustable Netting Post** 
+
 **Team:** FABulous engineers who make lanternflies DI 
+
 **Clients:** Cornell CALS Extension / E&J Gallo Winery / National Grape  
 
 **Problem Statement**
@@ -85,7 +87,9 @@ ________________________________________________________________________________
 *This section contains our process for designing, constructing, and testing our functional prototype, is the second iteration of our design.*
 
 **Adjustable Netting Post** 
+
 **Team:** FABulous engineers who make lanternflies DI 
+
 **Clients:** Cornell CALS Extension / E&J Gallo Winery / National Grape  
 
 Our functional prototype tests the core telescoping mechanism of the Adjustable Netting Post. The goal of this prototype was to validate three criteria for our pole system:
@@ -222,7 +226,9 @@ ________________________________________________________________________________
 *The client report is a full description of the results of our final project.*
 
 **Adjustable Netting Post** 
+
 **Team:** FABulous engineers who make lanternflies DI 
+
 **Clients:** Cornell CALS Extension / E&J Gallo Winery / National Grape  
 
 **Context and Problem Statement:**
