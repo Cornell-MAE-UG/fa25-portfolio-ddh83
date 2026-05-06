@@ -10,7 +10,7 @@ image: /assets/images/vines.png
 
 *Adjustable Netting Post*
 
-*Daniel Han*
+*Daniel Han, Finn Woods, Isaac Kahn, Bridget McAvoy, Ahmed Arif*
 
 **My team worked to create an efficient netting system to combat the effect of spotted lanternflies infesting vineyards. We created a purely mechanical design to do so.**
 
